@@ -1,0 +1,79 @@
+// QN 1
+public class HelloWorld {
+    public static void main(String[] args) {
+      System.out.println("HelloWorld");  
+    }   
+}
+
+//QN 2
+public class NewWorld{
+    public static void main(String[] args){
+
+    System.out.println("NewWorld");
+    }
+    }
+
+//QN 3
+public class Error {
+    public static void main(String[] args){
+        System.out.println("I want this program to compile");
+    }
+}
+
+//QN 4
+public class ContactInfo {
+    public static void main(String[] args) {
+        
+        System.out.println("Name: Safaa Nassor Mohamed");
+        System.out.println("Address: Mpendae");
+        System.out.println("Telephone Number: 0625208080");
+    }
+}
+
+//QN 5
+public class PersonalInfo {
+    public static void main(String[] args) {
+        // Displaying name, address, and telephone number
+        System.out.println("Name: Your Name");
+        System.out.println("Address: Your Address");
+
+        // Adding a blank line
+        System.out.println();
+
+        System.out.println("Telephone Number: Your Phone Number");
+    }
+}
+
+//QN 6
+public class InitialsDisplay {
+    public static void main(String[] args) {
+        displayS();
+        System.out.println(); // Add a blank line between initials
+        displayN();
+    }
+
+    // Method to display the letter 'S'
+    private static void displayS() {
+        System.out.println("  *****");
+        System.out.println(" *");
+        System.out.println("  *****");
+        System.out.println("       *");
+        System.out.println("  *****");
+    }
+
+    // Method to display the letter 'N'
+    private static void displayN() {
+        System.out.println(" *     *");
+        System.out.println(" **    *");
+        System.out.println(" * *   *");
+        System.out.println(" *  *  *");
+        System.out.println(" *   **");
+        System.out.println(" *    *");
+    }
+}
+ 
+
+
+
+
+
